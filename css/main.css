@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: red;
+}
+header{
+width: 1366px;
+height: 200px;
+background-color: black;
+
+}
+nav{
+width: 1366px;
+height: 50px;
+background-color: rgb(191, 191, 191);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+nav a {
+    color: rgb(255, 0, 0);
+text-decoration: none;
+padding: 15px;
+transition: 1s;
+font-family: "Edu VIC WA NT Beginner", cursive;
+
+}
+nav a:hover {
+background-color: black;
+transform: scale(1.2);
+
+}
+
+
+section{
+width: 1366px;
+height: 1500px;
+background-image: url(../imagenes/persona5_wallpaper.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+
+
+}
+
+section .personaje{
+width: 1366px;
+height: 350px;
+
+margin-top: 20px;
+float: left;
+
+}
+
+.personaje .texto{
+width: 800px;
+height: 350px;
+padding: 20px;
+float: left;
+margin-left: 33px;
+background-color: rgba(191, 191, 191, 0.592);
+}
+  
+.personaje .imagen{
+width: 467px;
+height: 350px;
+
+float: left;
+margin-left: 33px;
+
+
+}
+.imagen img{
+height: 100%;
+text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+footer{
+    height: 250px;
+    width: 1366px;
+    background-color: black;
+}
